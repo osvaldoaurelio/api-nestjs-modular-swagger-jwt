@@ -1,7 +1,6 @@
 ## Technologies
 
 <p style="display:flex;align-items:center;gap:1rem">
-<span>Docker</span>
   <a href="https://www.docker.com/" target="blank">
     <img src="https://www.docker.com/wp-content/uploads/2024/01/icon-docker-square.svg" width="32" alt="Docker Logo" />
   </a>
@@ -11,7 +10,6 @@
 ---
 
 <p style="display:flex;align-items:center;gap:1rem">
-<span>Prisma</span>
   <a href="https://www.prisma.io/" target="blank">
     <img src="https://prismalens.vercel.app/header/logo-white.svg" width="32" alt="Prisma Logo" />
   </a>
@@ -21,11 +19,10 @@
 ---
 
 <p style="display:flex;align-items:center;gap:1rem">
-<span>NestJS</span>
   <a href="https://nestjs.com/" target="blank">
     <img src="https://nestjs.com/img/logo-small.svg" width="32" alt="Nest Logo" />
   </a>
-  <span>A progressive <a href="https://nodejs.org" target="_blank">Node.js</a> framework for building efficient, reliable and scalable server-side applications.</span>
+  <span>NestJS is a progressive <a href="https://nodejs.org" target="_blank">Node.js</a> framework for building efficient, reliable and scalable server-side applications.</span>
 </p>
 
 ---
@@ -33,7 +30,7 @@
 
 ## Docker
 
-### Basic commmands
+### Basic commands
 
 ```bash
 # List containers
@@ -45,13 +42,13 @@ $ docker ps -a
 $ docker compose up  [OPTIONS] [SERVICE...]
 ```
 
-### Package.json commmands
+### Package.json commands
 
 ```bash
-# restart developmment db (removes, creates and update db)
+# restart developmment db (remove, create and update db)
 $ yarn db:dev:restart
 
-# restart test db (removes, creates and update db)
+# restart test db (remove, create and update db)
 $ yarn db:test:restart
 ```
 
@@ -60,7 +57,7 @@ $ yarn db:test:restart
 
 ## Prisma
 
-### Package.json commmands
+### Package.json commands
 
 ```bash
 # Prisma migrate - development
