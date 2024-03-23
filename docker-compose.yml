@@ -1,0 +1,27 @@
+version: '3.9'
+
+services:
+  dev-db:
+    image: postgres:16.2
+    ports:
+      - 5434:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres_dev_db
+    networks:
+      - pg_nest_network
+
+  test-db:
+    image: postgres:16.2
+    ports:
+      - 5435:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres_test_db
+    networks:
+      - pg_nest_network
+
+networks:
+  pg_nest_network:
